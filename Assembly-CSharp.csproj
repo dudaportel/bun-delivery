@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BoxFollow.cs" />
+    <Compile Include="Assets\Scripts\StackManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\DeliveryZone.cs" />
   </ItemGroup>
