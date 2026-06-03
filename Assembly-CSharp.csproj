@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\StackManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\DeliveryZone.cs" />
+    <Compile Include="Assets\Scripts\HideTextAfterDelay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
