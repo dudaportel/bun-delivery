@@ -17,4 +17,14 @@ public class SceneButton : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
+    public void LoadGameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
+
 }
