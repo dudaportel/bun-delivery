@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DeliveryZone : MonoBehaviour
 {
+    public string nextSceneName;
     public GameObject deliveryMessage;
 
     private bool delivered = false;
@@ -18,7 +20,12 @@ public class DeliveryZone : MonoBehaviour
             if (deliveryMessage != null)
                 deliveryMessage.SetActive(true);
 
-            Debug.Log("DELIVERY SUCCESS!");
+            Invoke(nameof(LoadNextScene), 1.5f);
         }
+    }
+
+    private void LoadNextScene()
+    {
+        SceneManager.LoadScene(nextSceneName);
     }
 }

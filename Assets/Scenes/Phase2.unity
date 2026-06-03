@@ -690,6 +690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4de43aba14f88648915214ff0795608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeliveryZone
+  nextSceneName: Credits
   deliveryMessage: {fileID: 852733114}
 --- !u!61 &60965547
 BoxCollider2D:

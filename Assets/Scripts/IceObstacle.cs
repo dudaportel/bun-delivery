@@ -7,7 +7,7 @@ public class IceObstacle : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("GameOver");
         }
 
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
