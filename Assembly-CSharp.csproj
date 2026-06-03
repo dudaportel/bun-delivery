@@ -64,8 +64,8 @@
     <Compile Include="Assets\Scripts\BoxFollow.cs" />
     <Compile Include="Assets\Scripts\StackManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\DeliveryZone.cs" />
     <Compile Include="Assets\Scripts\HideTextAfterDelay.cs" />
+    <Compile Include="Assets\Scripts\DeliveryZone.cs" />
     <Compile Include="Assets\Scripts\IceObstacle.cs" />
     <Compile Include="Assets\Scripts\WindZone.cs" />
     <Compile Include="Assets\Scripts\IceSpawner.cs" />
